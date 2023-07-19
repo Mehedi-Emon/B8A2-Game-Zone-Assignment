@@ -1,11 +1,11 @@
 /* 
-  ##Device = Most of the Galaxy fold Mobiles (Portrait)
+  Mobiles 
   ##Screen = B/w 279px to 319px
 */
 
 @media (min-width: 279px) and (max-width: 319px) {
 
-    /* CSS */
+
     /* header styles */
     header {
         display: flex;
@@ -247,21 +247,20 @@
         flex-direction: column;
     }
 
-    /* CSS */
+
 }
 
 
+
+
+
 /* 
-  
-  
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
+    Smartphones 
+    ##Screen = B/w 320px to 479px */
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-    /* CSS */
+
     /* header styles */
     header {
         display: flex;
@@ -413,7 +412,7 @@
         margin: 10px 0px 0px 0px;
     }
 
-    /* img-gallery styles */
+    /* gallery styles */
     .img-card {
         width: 100%;
         height: 373px;
@@ -467,7 +466,7 @@
         width: 396px;
     }
 
-    /* playesr styles */
+    /* playesr-styles */
     .player-container {
         display: flex;
         gap: 20px;
@@ -475,18 +474,15 @@
         flex-direction: column;
     }
 
-    /* CSS */
+
 }
 
 
-/* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
+/* ##Screen = B/w 481px to 767px */
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-    /* CSS */
+
     /* header styles */
     header {
         display: flex;
@@ -512,7 +508,7 @@
         flex-direction: column;
     }
 
-    /* img-gallery styles */
+    /* gallery styles */
     .img-gallery-container {
         display: grid;
         grid-template-columns: auto auto;
@@ -540,19 +536,16 @@
         margin: 20px 0px 0px 558px;
     }
 
-    /* CSS */
+
 
 }
 
 
-/* 
-    ##Device = Tablets, Notebook, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
+/* #Screen = B/w 768px to 1024px */
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    /* CSS */
+
     /* header styles */
     header {
         display: flex;
@@ -578,7 +571,7 @@
         flex-direction: column;
     }
 
-    /* img-gallery styles */
+    /* gallery -styles */
     .img-gallery-container {
         display: grid;
         grid-template-columns: auto auto;
@@ -606,7 +599,7 @@
         margin: 20px 0px 0px 558px;
     }
 
-    /* CSS */
+
 
 
 }
